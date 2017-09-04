@@ -1,0 +1,170 @@
+<div class="container">
+	<div class="row">
+		<div class="waves-effect waves-light btn col s5" ng-click="viewChange('f')">Facility</div>
+		<div class="col s1">&nbsp;&nbsp;</div>
+		<div class="waves-effect waves-light btn col s6" ng-click="viewChange('c')">Coaches</div>
+	</div>
+</div>
+
+<div ng-if="cur_view=='f'" ng-init="showbook=false">
+	<!-- <div class="scoreupcard" ng-repeat="f in facilities | limitTo:3">
+		<a class="item item-thumbnail-left">
+			<img src="{{f.img}}">
+			<h2>{{f.name}}</h2>
+			<h6>{{f.des}}</h6>
+			<button ng-if="f.booking=='Y'" class="waves-effect waves-light btn right ">Book</button>
+		</a>
+	</div>	
+	
+	<div class="card" ng-repeat="f in facilities | limitTo:3">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{{f.img}}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4"> {{f.name}} <i class="material-icons right">more_vert</i></span>
+	  <p><a ng-if="f.booking=='Y'" class="waves-effect waves-light btn right">Book</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>{{f.des}}</p>
+    </div>
+  </div> -->
+  
+  
+  
+  <div class="row" ng-repeat="f in facilities | limitTo:3">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{f.img}}">
+          <span class="card-title">{{f.name}}
+			<small>{{f.loc}}</small>
+		  </span>
+          <a ng-show="f.booking=='Y'" class="btn-floating halfway-fab waves-effect waves-light green" ng-click="showbook=true"><center><small>Book</small></center></a>
+        </div>
+		 <div class="card-content">
+		    <!--  <small ng-if="f.booking=='N'">Full booked</small> -->
+			<div>{{f.name}} <a class="activator"> ..more</a></div>
+        </div>
+		<div class="card-reveal">
+		  <span class="card-title grey-text text-darken-4">{{f.name}}<i class="material-icons right">close</i></span>
+		  <p>Here is some more information about this product that is only revealed once clicked on.
+		  Here is some more information about this product that is only revealed once clicked on.
+		  Here is some more information about this product that is only revealed once clicked on.
+		  Here is some more information about this product that is only revealed once clicked on.
+		  </p>
+		  <div>Sports:  </div>
+		</div>
+		<div class="row" ng-show="showbook">
+			 <div class="row"><div class="col s3">Sports: </div>
+				 <div class="col s9 scrollButton"> 
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small ">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small ">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small ">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+					<a class="btn-floating btn-small ">
+						<i class="material-icons">directions_bike</i> 
+					</a>
+				 </div>
+			 </div>
+			<form class="col s12">
+				<div class="row">
+					<div class="col s4">
+						<b>Date</b><br/>
+						<div class="yellow lighten-2">Not selected</div><div >18th Aug</div>
+					</div>
+					<div class="col s4">
+						<b>Time </b><br/>
+						<div class="yellow lighten-2">Not selected</div> <div>{{qty}} AM </div>
+					</div>
+					<div class="col s4">
+						<b>Duration</b> <br/>
+						<div class="yellow lighten-2">Not selected</div> <div>1:00 hrs {{qty}}</div>
+					</div>
+				</div>
+			
+					<form action="#">
+						<p class="range-field">
+							<input type="range" id="test5" min="0" max="100" ng-model="qty" />
+						</p>
+					</form>
+				
+				<div>Courts: 
+					<div class="scrollButton">
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+						<a class="waves-effect waves-teal btn-flat" style="border:1px solid #26a69a;">button</a>
+					</div>
+				</div>
+				<a class="waves-effect waves-light btn right" ng-click="payNow()"> Pay </a>
+				<a class="waves-effect waves-light btn left" ng-click="showbook=false"> Cancel </a>
+			</form>
+		</div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+<div ng-if="cur_view=='c'">
+	<div class="scoreupcard" ng-repeat="c in coaches | limitTo:3">
+		<a class="item item-thumbnail-left">
+		   <img src="{{c.img}}">
+		  <h2>{{c.name}}</h2>
+		  <p>{{c.des}}</p>
+		</a>
+	</div>
+</div>
+
+<style>
+	.scrollButton {
+		min-height: 30px;
+		overflow-x:scroll;
+		overflow-y:hidden;
+		padding: 0 15px;
+		white-space: nowrap;
+		position: relative;
+		background-color: transparent;
+	}
+</style>

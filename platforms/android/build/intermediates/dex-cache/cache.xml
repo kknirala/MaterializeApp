@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\CordovaApp_Material\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c469e0c11423be780117c5511eff08e1c161cb1d">
+        <dex dex="D:\CordovaApp_Material\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_747316a71d19ffab01521c55eb018bade805efe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\CordovaApp1\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="C:\xampp\htdocs\CordovaApp1\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_bb3e3e24cf744acf74d277fd693cf14e8973fa04.jar" />
+    </item>
+
+</items>

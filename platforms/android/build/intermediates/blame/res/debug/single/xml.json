@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\CordovaApp_Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\CordovaApp_Material\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\res\\xml\\config.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\CordovaApp_Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi\\screen.png",
+        "source": "D:\\CordovaApp_Material\\platforms\\android\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi\\screen.png",
+        "source": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\res\\drawable-port-hdpi\\screen.png"
+    }
+]

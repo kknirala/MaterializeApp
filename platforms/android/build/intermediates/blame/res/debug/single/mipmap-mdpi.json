@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icon.png",
+        "source": "C:\\xampp\\htdocs\\CordovaApp1\\platforms\\android\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\CordovaApp_Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icon.png",
+        "source": "D:\\CordovaApp_Material\\platforms\\android\\res\\mipmap-mdpi\\icon.png"
+    }
+]
